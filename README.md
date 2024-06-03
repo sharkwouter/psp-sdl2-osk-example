@@ -32,6 +32,14 @@ cmake ..
 make
 ```
 
+### VITA
+
+```
+mkdir vita && cd vita
+cmake -DCMAKE_TOOLCHAIN_FILE="${VITASDK}/share/vita.toolchain.cmake" ..
+make
+```
+
 ## License
 
 To the code the Unlicense applies. To the font files the following MIT license applies:
